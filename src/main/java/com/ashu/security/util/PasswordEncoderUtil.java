@@ -1,0 +1,19 @@
+package com.ashu.security.util;
+
+import java.util.Base64;
+import java.util.Base64.Encoder;
+
+public class PasswordEncoderUtil {
+
+	public String encodePassword(String rawPassword) {
+
+		Encoder encoder = Base64.getEncoder();
+
+		String encodedPassword = encoder.encodeToString(rawPassword.getBytes());
+
+		return encodedPassword;
+		
+
+	}
+
+}
