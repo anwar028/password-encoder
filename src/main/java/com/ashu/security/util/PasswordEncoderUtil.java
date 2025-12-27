@@ -14,8 +14,9 @@ public class PasswordEncoderUtil {
 		return encodedPassword;
 	}
 
-	public void m2() {
-		System.out.println("This is m1() method");
+	public String add() {
+		String txt = "hello good evenin";
+		return txt;
 	}
 
 }
