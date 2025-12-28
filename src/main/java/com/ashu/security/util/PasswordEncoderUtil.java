@@ -19,4 +19,10 @@ public class PasswordEncoderUtil {
 		return txt;
 	}
 
+	public String fullName(String fn, String sn) {
+
+		String fullName = fn + sn;
+		return fullName;
+	}
+
 }
