@@ -32,4 +32,22 @@ public class PasswordEncoderUtil {
 
 	}
 
+	// BUG -1
+
+	public boolean isTrue() {
+
+		int a = 10;
+		int b = 20;
+
+		if (a > b) {
+
+			return true;
+		} else {
+
+			return false;
+		}
+	}
+	
+	
+
 }
